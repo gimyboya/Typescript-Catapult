@@ -2,9 +2,9 @@
 <p align="center">
   <!-- <img alt="BetterCap" src="https://apostille.io/apostille.png" height="200" /> -->
   <p align="center">
-    <a href="https://travis-ci.org/luxtagofficial/Typescript-Catapult"><img src="https://travis-ci.org/luxtagofficial/Typescript-Catapult.svg?branch=master"></a>
-    <a href="https://codecov.io/gh/luxtagofficial/Typescript-Catapult">
-    <img src="https://codecov.io/gh/luxtagofficial/Typescript-Catapult/branch/master/graph/badge.svg" />
+    <a href="https://travis-ci.org/gimyboya/Typescript-Catapult"><img src="https://travis-ci.org/gimyboya/Typescript-Catapult.svg?branch=master"></a>
+    <a href="https://codecov.io/gh/gimyboya/Typescript-Catapult">
+      <img src="https://codecov.io/gh/gimyboya/Typescript-Catapult/branch/master/graph/badge.svg" />
     </a>
   </p>
 </p>
