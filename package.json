@@ -1,17 +1,16 @@
 {
   "name": "typescript-catapult",
   "version": "0.0.0-development",
-  "description": "Typescript implementation of Luxtag-SDK",
+  "description": "Typescript Starter kit to develop on ctapult",
   "keywords": [
     "blockchain",
     "nem",
     "notarization",
     "poe"
   ],
-  "homepage": "http://luxtag.io/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luxtagofficial/Typescript-Catapult"
+    "url": "https://github.com/gimyboya/Typescript-Catapult"
   },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
