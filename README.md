@@ -32,11 +32,6 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 
 **development:**
 - [Typescript](https://github.com/Microsoft/TypeScript)
-- [nem2-sdk](https://github.com/nemtech/nem2-sdk-typescript-javascript)
-- [apostille-library](https://github.com/luxtagofficial/Apostille-library)
-- [nem-sdk](https://github.com/QuantumMechanics/NEM-sdk)
-- [crypto-js](https://github.com/brix/crypto-js)
-- [js-sha3](https://github.com/emn178/js-sha3)
 - [lodash](https://github.com/lodash/lodash)
 - [rxjs](https://github.com/ReactiveX/rxjs)
 
