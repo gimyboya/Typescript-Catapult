@@ -1,25 +1,29 @@
-# Typescript-Catapult
+# Typescript-Starter
 <p align="center">
-  <!-- <img alt="BetterCap" src="https://apostille.io/apostille.png" height="200" /> -->
+  <img alt="BetterCap" src="https://vignette.wikia.nocookie.net/dev/images/d/db/Typescript_logo.png/revision/latest/scale-to-width-down/480?cb=20151023133416" height="200" />
   <p align="center">
-    <a href="https://travis-ci.org/gimyboya/Typescript-Catapult"><img src="https://travis-ci.org/gimyboya/Typescript-Catapult.svg?branch=master"></a>
-    <a href="https://codecov.io/gh/gimyboya/Typescript-Catapult">
-      <img src="https://codecov.io/gh/gimyboya/Typescript-Catapult/branch/master/graph/badge.svg" />
+    <a href="https://travis-ci.org/gimyboya/Typescript-Starter"><img src="https://travis-ci.org/gimyboya/Typescript-Starter.svg?branch=master"></a>
+    <a href="https://codecov.io/gh/gimyboya/Typescript-Starter">
+      <img src="https://codecov.io/gh/gimyboya/Typescript-Starter/branch/master/graph/badge.svg" />
     </a>
+    <a href="http://commitizen.github.io/cz-cli/">
+      <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" />
+    </a>
+    [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
   </p>
 </p>
 
-A fully automated Typescript environment to start building your tools for catapult.
+A fully automated Typescript environment to get you started building your tools for catapult.
 
 # Easy as 1,2,3
 1- You can use this repo by cloning it to your local machine in a new folder as follow
 ```bash
 git init
-git clone https://github.com/luxtagofficial/Typescript-Catapult.git
+git clone https://github.com/luxtagofficial/Typescript-Starter.git
 ```
 2- Once done you need to point the remote origin to your own git repository
 ```bash
-git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
 ```
 3- There was never a third step, start writing some code!
 # What do you get

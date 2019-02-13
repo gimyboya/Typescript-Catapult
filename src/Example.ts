@@ -1,18 +1,19 @@
-import { AccountHttp, NetworkType, PublicAccount, QueryParams } from 'nem2-sdk';
+import _ from 'lodash'
 
-export class Example {
-  public static logTransactions(publicKey: string): void {
-    const accountHttp = new AccountHttp('http://api.beta.catapult.mijin.io:3000');
-    const publicAccount =  PublicAccount.createFromPublicKey(publicKey, NetworkType.MIJIN_TEST);
-
-    const pageSize = 10; // Page size between 10 and 100, otherwise 10
-
-    accountHttp
-      .transactions(publicAccount, new QueryParams(pageSize))
-      .subscribe((transactions) => {
-        console.log(transactions);
-      }, (err) => {
-        console.error(err);
-      });
+const sum = (a: number | string, b: number | string): number => {
+  let newa: number
+  let newb: number
+  if (typeof a === 'string') {
+    newa = _.parseInt(a)
+  } else {
+    newa = a
   }
+  if (typeof b === 'string') {
+    newb = _.parseInt(b)
+  } else {
+    newb = b
+  }
+  return _.add(newa, newb)
 }
+
+export default sum
