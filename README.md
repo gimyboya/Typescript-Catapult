@@ -13,7 +13,7 @@
   </p>
 </p>
 
-A fully automated Typescript environment to get you started building your tools for catapult.
+A fully automated Typescript environment to get you started building your tools
 
 # Easy as 1,2,3
 
