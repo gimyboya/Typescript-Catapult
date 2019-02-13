@@ -25,6 +25,7 @@ Hi! We are really excited that you are interested in contributing. Before submit
 - Make sure `npm test` passes. (see [development setup](#development-setup))
 
 - If adding new feature:
+
   - Add accompanying test case.
   - Provide convincing reason to add this feature. Ideally you should open a suggestion issue first and have it greenlighted before working on it.
 
@@ -39,7 +40,7 @@ You will need [Node.js](http://nodejs.org) **version 6+**
 
 After cloning the repo, run:
 
-``` bash
+```bash
 $ npm install # or yarn
 ```
 
@@ -49,7 +50,7 @@ Commit messages should follow the [commit message convention](./COMMIT_CONVENTIO
 
 ### Commonly used NPM scripts
 
-``` bash
+```bash
 # interactive CLI for generating proper commit messages
 $ npm run commit
 
@@ -67,7 +68,3 @@ npm run validate
 ```
 
 **Please make sure to have this pass successfully before submitting a PR.**
-
-## Credits
-
-Thank you to all the people who have already contributed to Apostille-libray!
