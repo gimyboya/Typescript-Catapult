@@ -1,5 +1,5 @@
 describe('health test', () => {
-  it('should alwayse pass', () => {
-    expect(true).toBeTruthy();
-  });
-});
+  it('should always pass', () => {
+    expect(true).toBeTruthy()
+  })
+})
