@@ -16,6 +16,7 @@
     "commit": "git-cz",
     "prebuild": "rimraf dist",
     "prebuild:watch": "rimraf dist",
+    "start": "npx ts-node index.ts",
     "build": "tsc",
     "build:watch": "tsc --watch",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
@@ -57,7 +58,7 @@
     "travis-deploy-once": "^5.0.0",
     "ts-jest": "^22.4.2",
     "tslint": "^5.10.0",
-    "typescript": "^2.8.3",
+    "typescript": "^4.1.2",
     "validate-commit-msg": "^2.14.0"
   },
   "files": [
