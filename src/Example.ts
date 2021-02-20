@@ -1,19 +1,19 @@
-import _ from 'lodash'
+import _ from 'lodash';
 
 const sum = (a: number | string, b: number | string): number => {
-  let newa: number
-  let newb: number
+  let newa: number;
+  let newb: number;
   if (typeof a === 'string') {
-    newa = _.parseInt(a)
+    newa = _.parseInt(a);
   } else {
-    newa = a
+    newa = a;
   }
   if (typeof b === 'string') {
-    newb = _.parseInt(b)
+    newb = _.parseInt(b);
   } else {
-    newb = b
+    newb = b;
   }
-  return _.add(newa, newb)
-}
+  return _.add(newa, newb);
+};
 
-export default sum
+export default sum;
