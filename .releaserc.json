@@ -1,5 +1,5 @@
 {
-  "branches": [ "main", "next", "next-major", 
+  "branches": [ "master", "next", "next-major", 
                 {
                   "name": "beta", 
                   "prerelease": true
